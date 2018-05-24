@@ -5,7 +5,7 @@
 
 ## demo
 
-![效果](http://zwhgithub.github.io/vue-swiper/dist/1514291260.png)
+![效果](./preview.gif)
 
 🎉 觉得好用给一个 star 哦~ 🎉
 
