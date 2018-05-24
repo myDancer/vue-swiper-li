@@ -20,14 +20,22 @@ cnpm i vue-swiper-lj --save  //淘宝镜像
 
 ```javascript
 import { Swiper } from 'vue-swiper-lj';
-
+data() {
+  return{
+    imgs: [
+        'http://p1.music.126.net/JBy1FYoB8QoTPj7LGsGcZQ==/109951163312508936.jpg',
+        'http://p1.music.126.net/7mfBQD7u1lZR0eiqb8bTAA==/109951163312449573.jpg',
+        'http://p1.music.126.net/UO5gvUIk9RZL78u5ZsoIBA==/109951163312707065.jpg'
+    ]
+  }
+},
 components: {
     Swiper
 }
 
 //异步加载轮播图的情况
-  <Slide :imgs="imgs" :interval="3000">
-  </Slide>
+  <Swiper :imgs="imgs" :interval="3000">
+  </Swiper>
 
 ```
 
