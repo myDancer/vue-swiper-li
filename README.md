@@ -13,7 +13,8 @@
 
 ```javascript
 npm i vue-swiper-lj --save
-cnpm i vue-swiper-lj --save  //淘宝镜像
+或者
+npm i vue-swiper-lj --save --registry=https://registry.npm.taobao.org  // 使用淘宝镜像
 ```
 
 ## Usage
